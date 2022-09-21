@@ -1,7 +1,7 @@
 import Marquee from "react-fast-marquee"
 import Header from "../layouts/header"
 import Mainsection from "../layouts/tab/tab"
-import Subheader from "../layouts/subHeader"
+import SubHeader from "../layouts/subHeader"
 import ContactSection from "../layouts/contact"
 import Footer from "../footer"
 
@@ -15,7 +15,7 @@ function LandingPage() {
                     return <div className="font-SG font-semibold text-lg mx-6 underline ">{language}</div>
                 })}
             </Marquee>
-            <Subheader/>
+            <SubHeader/>
             <Mainsection/>
             <ContactSection/>
             <Footer/>
